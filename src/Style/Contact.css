@@ -1,0 +1,44 @@
+#contact{
+    border:5px solid purple;
+    /* min-height: 90vh; */
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+#contactheader{
+    padding-top: 14vh;
+    padding-bottom: 10vh;
+    font-size: 42px;
+}
+#inputcontainer{
+    display:flex;
+    flex-direction: column;
+    gap:4vh;
+}
+#emailinput{
+    font-size: 2.5vmin;
+    border-radius: 10px;
+    border:1px solid black;
+    padding:5px;
+
+}
+#messageinput{
+    font-size: 2.3vmin;
+    padding:5px;
+}
+#messageinput:active{
+
+    border:2px solid black;
+
+}
+#submitbutton{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 2.5vmin;
+    width:10vw
+}
+#submitbutton:hover{
+    background-color: black;
+    color:white;
+}

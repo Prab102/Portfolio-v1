@@ -1,0 +1,21 @@
+/* *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+} */
+#navbarcont1{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding :20px;
+    border:1px solid black;
+    display:flex;
+    justify-content: space-between;
+    
+}
+/* #navbar{
+    z-index:100;
+    display:flex;
+    gap:10px;
+} */

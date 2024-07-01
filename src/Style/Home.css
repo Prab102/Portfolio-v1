@@ -1,0 +1,138 @@
+#home{
+    /* border: 10px solid purple; */
+    position:relative;
+    min-height: 80vh;
+    /* padding-bottom: 20vh; */
+    display:flex;
+    /* align-items: center; */
+    justify-content: center;
+
+    /* z-index:100; */
+    
+}
+#animatedcont{
+    /* min-height: 70%; */
+    border: 1px solid red;
+    min-height:80vh;
+    min-width: 100vw;
+    background-color: rgb(28, 29, 48  );
+    position:absolute;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* z-index:0; */
+    /* overflow: hidden; */
+
+}
+#imgcont{
+    top: 20vh;
+    left:-30vw;
+    position: relative;
+    border:5px solid WHITE;
+    border-radius: 10vw;
+    overflow: hidden;
+    z-index: 100;
+}
+#socialscont{
+    position: relative;
+    /* border : 1px solid white; */
+    top:15vh;
+    left: 30vw;
+    display: flex;
+    gap: 50px;
+    z-index: 100;
+    /* color: white; */
+}
+#githubicon{
+    fill:#fff;
+}
+#socialscont img{
+    filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%) hue-rotate(105deg) brightness(108%) contrast(101%);
+    z-index: 100;
+
+}
+#socialscont img:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+
+}
+#homecontent{
+    position :relative;
+    min-height: 20vh;
+    min-width: 50vw;
+    max-width: 70vw;
+    display:flex;
+    text-align: left;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: none;
+    /* align-items: center;   */
+    top:10vh;
+    /* border:1px solid red; */
+}
+#hello{
+    font-size: 36px;
+}
+#title{
+    text-align: center;
+    font-size: 46px;
+    font-weight: 10;
+    margin-top: -2vh;
+    margin-bottom: 10vh;
+}
+#welcome{
+    margin-left:35%;
+    font-size:48px;
+    /* border:1px solid black; */
+    max-width: fit-content;
+}
+.typewriter {
+    
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    /* border:1px solid black; */
+    /* width: ; */
+    border-right: .15em solid orange; 
+    text-align: left;
+    align-self:unset;
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .01em; /* Adjust as needed */
+    animation: 
+      typing 1.3s steps(10, end) ,
+      blink-caret 1.2s step-end infinite;
+  }
+ 
+  @keyframes typing {
+    
+    from { width: 0 } 
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: white; }
+  }
+
+
+
+.circle {
+	position: fixed;
+    border: solid 1px #ccc;
+    /* background-color: magenta; */
+    width: 60px; 
+    height: 60px; 
+    border-radius: 50%;  
+    /* z-index:0; */
+}
+
+#line{
+    border:1px solid black;
+    width: 100vw;
+    top: 80vh;
+    height: 10vh;
+    background-color: grey;
+    z-index: 100;
+    position:relative;
+}
