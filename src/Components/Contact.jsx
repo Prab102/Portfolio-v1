@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+
 // import '.env'
 import "../Style/Contact.css"  
 import emailjs from"@emailjs/browser"
@@ -6,7 +6,7 @@ import emailjs from"@emailjs/browser"
 // import { useParams } from "react-router-dom";
 // import { Outlet } from "react-router-dom";
 
-const Contact = ({}) => {
+const Contact = () => {
       // console.log(import.meta.env.VITE_SERVICEID);
       const sendEmail = (e)=>{
          e.preventDefault();
@@ -17,19 +17,26 @@ const Contact = ({}) => {
 
         return (
         <section id="contact" >
-           <div id="contactheader">Contact Me</div>
-           <form action="" onSubmit={sendEmail}>
-               <div id="inputcontainer">
+         <div id="contactheader">Contact Me</div>
+         <div id="contactcontainer">
+            
+            <p id="messagegreeting">If you want to know more, or would like to contact me. Send me a message using this form</p>
+            
+            <form id="formstuff"action="" onSubmit={sendEmail}>
+                  <div id="inputcontainer">
 
-                  <input name="from_email" id="emailinput"type="text"  placeholder="Email" required/>
+                     <input name="from_email" id="emailinput"type="text"  placeholder="Your email" required/>
 
-                  <textarea name="message" id="messageinput" cols="40" rows="13" placeholder="Message"required></textarea>
+                     <textarea name="message" id="messageinput" cols="40" rows="13" placeholder="Message"required></textarea>
 
-                  <button id="submitbutton" type="submit">Send </button>
+                     <button id="submitbutton" type="submit">Send </button>
 
-               </div>
+                  </div>
 
-           </form>
+            </form>
+            
+         </div>
+
         </section>
         );
       };

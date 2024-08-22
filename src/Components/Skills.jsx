@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import jsicon from "../assets/js.svg";
 import reacticon from"../assets/atom.svg";
 import mongodbicon from"../assets/mongodb-icon.svg"
@@ -15,11 +15,8 @@ import nodeicon from"../assets/nodejs.svg"
 
 
 import "../Style/Skills.css"  
-// import { useState } from 'react'
-// import { useParams } from "react-router-dom";
-// import { Outlet } from "react-router-dom";
 
-const Skills = ({}) => {
+const Skills = () => {
 
     
     
