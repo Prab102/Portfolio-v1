@@ -9,7 +9,7 @@ import cprogrammingicon from"../assets/C_Programming.svg.png";
 import imageprocessingimg from "../assets/Image-Processing.png";
 import phototaggingimg from "../assets/Photo-Tagging-Img.png";
 import messagingimg from "../assets/Messagin-App-Img2.png";
-import geometrygameimg from "../assets/GeometryGame2.png";
+import geometrygameimg from "../assets/GameEnginev3.png";
 
 
 import "../Style/Projects.css"  
