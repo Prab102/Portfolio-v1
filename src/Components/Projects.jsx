@@ -121,7 +121,7 @@ const Projects = () => {
                       <p>A game engine built in c++ with the SFML library</p>
                       <p>This game engine is built using the Entity Component System &#40;ECS&#41; architecture. This allows it to have a factory style implementaion, so the creation and destruction of entities are handled in an organized structure. </p>
                       <div id="projectlinks">
-                        <a href="https://github.com/Prab102/GeometryGame" target="_blank" rel="noopener noreferrer"> <img  id="githublink"className="links"src={githubicon} width="50"alt=" githublink" /> </a>
+                        <a href="https://github.com/Prab102/GameEngine_v3" target="_blank" rel="noopener noreferrer"> <img  id="githublink"className="links"src={githubicon} width="50"alt=" githublink" /> </a>
 
                       </div>
                     </div>
